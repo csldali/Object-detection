@@ -1,14 +1,14 @@
 #Object detection use linemod 
 
 
------------------------------------------first--------------------------------------------
+-----------------------------------------First--------------------------------------------
 
    github Object-detection repository.
 
 
 
 
-----------------------------------------second--------------------------------------------
+----------------------------------------Second--------------------------------------------
 
    If you install ros by sudo apt-get install ros-indigo-desktop-full, it will be easily .  
        
@@ -17,7 +17,7 @@
 
 
 
-----------------------------------------third---------------------------------------------
+----------------------------------------Third---------------------------------------------
 
     install openni2 package (we use ASUS xtion)
     If you meet ERROR:Failed to open the USB device! you need to go to /lib/udev/rules.d/40-libopenni2-0.rules file,and add the following to a file:
@@ -26,7 +26,7 @@ SUBSYSTEM=="usb", ATTR{idProduct}=="0609", ATTR{idVendor}=="1d27", MODE:="0666",
 
 
 
----------------------------------------finally--------------------------------------------
+---------------------------------------Finally--------------------------------------------
 
     Operation!!!
     
